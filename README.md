@@ -1,6 +1,6 @@
 # :coffee:COFFEE:heart:MATE:coffee:
 Coffee Mate - Is a Dating app that matches you based on your coffee interest. Whether is connecting over a cup of coffee or being introduced to unique coffee shops locally. 
-Coffee Mate brings a more relaxed secret sauce dedicated to those who enjoy the bean and a more personal connection. The days of catfishing are **OVER**. Register for your Hot Bean Injection:syringe:
+Coffee Mate brings a more relaxed secret sauce dedicated to those who enjoy the bean in a comfortable setting. The days of catfishing are **OVER**. Register for your Hot Bean Injection:syringe:
 <hr>
 :wrench:Built With
 <hr>
