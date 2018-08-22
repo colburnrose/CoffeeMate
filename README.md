@@ -11,7 +11,7 @@ Coffee Mate brings a more relaxed secret sauce dedicated to those who enjoy the 
 :rocket: Future
 <hr>
 :octocat: Video profile / messaging with Twilio.<br>
-:octocat: Reward system for Coffee purchases.
+:octocat: Reward system for Coffee purchases.<br>
 :octocat: Native IOS app.<br>
 <hr>
 :mortar_board: Author
