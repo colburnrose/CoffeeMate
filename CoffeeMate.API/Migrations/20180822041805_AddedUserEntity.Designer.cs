@@ -30,7 +30,7 @@ namespace CoffeeMate.API.Migrations
                     b.ToTable("Values");
                 });
 
-            modelBuilder.Entity("CoffeeMate.API.Models.Users", b =>
+            modelBuilder.Entity("CoffeeMate.API.Models.User", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd();

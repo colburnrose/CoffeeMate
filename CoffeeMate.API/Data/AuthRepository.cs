@@ -16,7 +16,7 @@ namespace CoffeeMate.API.Data
         public async Task<User> Login(string username, string pwd)
         {
             // returns a user that matches or returns null.
-            var user = await _context.Users.FirstOrDefaultAsync(u => u.UserName == username);
+            var user = await _context.User.FirstOrDefaultAsync(u => u.UserName == username);
             if(user == null) return null;
             if(!VerfiedPasswordHash(pwd, user.PasswordHash, user.PasswordSalt)) return null;
 
@@ -47,7 +47,7 @@ namespace CoffeeMate.API.Data
             user.PasswordHash = passwordHash;
             user.PasswordHash = passwordSalt;
             
-            await _context.Users.AddAsync(user);
+            await _context.User.AddAsync(user);
             await _context.SaveChangesAsync();
 
             return user;
@@ -65,7 +65,7 @@ namespace CoffeeMate.API.Data
 
         public async Task<bool> UserExists(string username)
         {   // check to compare the username against any username in the db
-            if(await _context.Users.AnyAsync(u => u.UserName == username))
+            if(await _context.User.AnyAsync(u => u.UserName == username))
             {
                 return true;
             }
