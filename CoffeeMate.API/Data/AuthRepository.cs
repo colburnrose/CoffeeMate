@@ -45,7 +45,7 @@ namespace CoffeeMate.API.Data
             CreatePasswordHash(pwd, out passwordHash, out passwordSalt);
 
             user.PasswordHash = passwordHash;
-            user.PasswordHash = passwordSalt;
+            user.PasswordSalt = passwordSalt;
             
             await _context.User.AddAsync(user);
             await _context.SaveChangesAsync();
